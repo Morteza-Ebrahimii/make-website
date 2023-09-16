@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Raleway:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    position: sticky;
+    top: 0rem;
+    background-color: rgba(198, 200, 201);
+}
+
+
+nav a {
+    background-color: rgb(219, 217, 217);
+    color: black;
+    border-radius: 1rem;
+    padding: 10px;
+    margin: 5px;
+}
+
+#box {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 2rem 0rem;
+}
+
+.alibaba {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 180px;
+    height: 260px;
+    border: 3px solid rgb(201, 197, 197);
+    padding: 2rem;
+    background-color: rgb(201, 197, 197);
+    border-radius: 1rem;
+    text-align: center;
+}
+
+section a {
+    margin: 1rem 1rem;
+    padding: .50rem 0rem;
+    background-color: rgb(253, 118, 0);
+    color: white;
+    border-radius: .75rem;
+    font-size: 1.2rem;
+}
+
+
+h3 {
+    margin: .3rem;
+    font-size: 25px;
+}
+
+#rules h3 {
+    display: inline-block;
+    font-size: 3rem;
+    margin: 1rem 2rem 0rem 1.5rem;
+}
+
+
+#rules {
+    border: 3px solid black;
+    margin: 5rem;
+    padding: 2rem 1rem;
+    border-radius: 5px;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+
+}
+
+il {
+    display: block;
+    text-align: first;
+}
+
+
+@media (max-width :426px) {
+    header nav {
+        flex-direction: column;
+    }
+
+    #rules {
+        flex-direction: column;
+    }
+}
+
+@media (min-width :2559px) {
+    #rules {
+        width: 90rem;
+        margin: 0 40rem;
+    }
+}
